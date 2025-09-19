@@ -39,10 +39,10 @@ export const skillsSection: SkillsSectionType = {
       title: "Full Stack Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json",
       skills: [
-        emoji("⚡ Developing responsive apps with React and Next.js"),
-        emoji("⚡ Designing APIs with FastAPI and Node.js"),
-        emoji("⚡ Deploying applications on AWS with scalability in mind"),
-        emoji("⚡ Building accessible UIs with WCAG standards in mind"),
+        emoji("⚡ Developing responsive web apps with React and TypeScript"),
+        emoji("⚡ Designing REST APIs and backend services with FastAPI and Node.js"),
+        emoji("⚡ Implementing real-time synchronized features using WebSockets and cloud databases"),
+        emoji("⚡ Deploying scalable, serverless applications on AWS"),
       ],
       softwareSkills: [
         {
@@ -113,21 +113,19 @@ export const projects: ProjectType[] = [
     name: "Not Alone Online",
     desc: "An online adaptation of the Not Alone board game with multiplayer support using React, AWS DynamoDB, and API Gateway WebSockets.",
     github: "https://github.com/Vincent66875/not-alone",
+    img: "/projects/not-alone.png"
   },
   {
     name: "Collaborative Task Management Tool",
     desc: "A React + TypeScript application with Firebase integration and drag-and-drop functionality for managing tasks across boards.",
     github: "https://github.com/Vincent66875", // update with correct repo
+    img: "/projects/security-analyzer.png"
   },
   {
     name: "Job Helper Tool",
     desc: "Cloud-native job application tracker built with FastAPI and DynamoDB, designed to assist students in organizing applications.",
-    github: "https://github.com/Vincent66875", // update with correct repo
-  },
-  {
-    name: "Stock Price Predictor (in progress)",
-    desc: "A machine learning project for stock price prediction using Python and data science techniques to showcase ML skills.",
-    github: "https://github.com/Vincent66875", // update with correct repo
+    github: "https://github.com/Vincent66875",
+    img: "/projects/task-manager.png"
   },
 ];
 export const feedbacks: FeedbackType[] = [
