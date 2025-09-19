@@ -130,7 +130,13 @@ export const projects: ProjectType[] = [
     github: "https://github.com/Vincent66875", // update with correct repo
   },
 ];
-
+export const feedbacks: FeedbackType[] = [
+  {
+    name: "Your Name",
+    role: "Mentor / Colleague",
+    feedback: "This is a placeholder feedback until I gather real testimonials.",
+  },
+];
 export const seoData: SEODataType = {
   title: "Vincent Hung",
   description: greetings.description,
