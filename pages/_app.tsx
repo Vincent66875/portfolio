@@ -7,6 +7,7 @@ import "../styles/vendor/font-awesome/css/font-awesome.min.css";
 import "../styles/vendor/nucleo/css/nucleo.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  //google verify
   return (
     <>
       <Head>
