@@ -15,7 +15,7 @@ import { GithubUserType } from "../types";
 export default function Home({ githubProfileData }: { githubProfileData: any }) {
   return (
     <div>
-      <SEO />
+      <SEO {...({ title: "Your Main Portfolio Name", description: "A concise summary of your skills and projects. Max 160 characters." } as any)} />
       <Navigation />
       <Greetings />
       <Skills />
@@ -28,10 +28,6 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
     </div>
   );
 }
-
-// Home.prototype = {
-//   githubProfileData: PropTypes.object.isRequired,
-// };
 
 export async function getStaticProps() {
   const githubProfileData: GithubUserType = await fetch(
