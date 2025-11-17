@@ -1,3 +1,3 @@
 User-agent: *
-Allow: /*
-Host: developer-portfolio-1hanzla100.vercel.app
+Allow: /
+Sitemap: https://vincent-portfolio-psm0g1aic-vincent66875s-projects.vercel.app/sitemap.xml
