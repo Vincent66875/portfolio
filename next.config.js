@@ -7,13 +7,12 @@ module.exports = {
   async headers() {
     return [
       {
-        // Target your sitemap file
-        source: '/sitemap.xml',
+        // CHANGE THIS: source was '/sitemap.xml', change it to '/(.*)' to match ALL pages
+        source: '/(.*)',
         headers: [
           {
-            // Explicitly set the X-Robots-Tag to allow indexing and following
             key: 'X-Robots-Tag',
-            value: 'index, follow',
+            value: 'index, follow', // This forces the server to say "Index me!"
           },
         ],
       },
