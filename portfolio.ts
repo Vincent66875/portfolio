@@ -15,8 +15,8 @@ export const greetings: GreetingsType = {
   name: "Vincent Hung",
   title: "Hi all, I'm Rung-Shiang (Vincent) Hung",
   description:
-    "I'm a Computer Science student at Clemson University and an aspiring software/cloud engineer. I enjoy building scalable, inclusive applications with React, Next.js, AWS, and FastAPI. I have hands-on experience in IT operations, cloud backend development, and accessible UI design, and I'm always looking to learn and take on new challenges.",
-  resumeLink: "/resume_.pdf", // Add your resume link here
+    "I'm a Computer Science senior at Clemson University and an aspiring software/cloud engineer. I have a strong focus on building scalable web applications and modernizing legacy systems using React, Java, AWS, and FastAPI. My background spans full-stack development, network IT operations, and cybersecurity research.",
+  resumeLink: "/resume_.pdf", 
 };
 
 export const openSource = {
@@ -36,13 +36,13 @@ export const skillsSection: SkillsSectionType = {
   subTitle: "SOFTWARE & CLOUD ENGINEER WHO BUILDS SCALABLE AND INCLUSIVE SYSTEMS",
   data: [
     {
-      title: "Full Stack Development",
+      title: "Full Stack & Cloud Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json",
       skills: [
-        emoji("⚡ Developing responsive web apps with React and TypeScript"),
-        emoji("⚡ Designing REST APIs and backend services with FastAPI and Node.js"),
-        emoji("⚡ Implementing real-time synchronized features using WebSockets and cloud databases"),
-        emoji("⚡ Deploying scalable, serverless applications on AWS"),
+        emoji("⚡ Developing responsive web apps with React, Next.js, and TypeScript"),
+        emoji("⚡ Modernizing legacy infrastructure (COBOL to Java) using AWS tools"),
+        emoji("⚡ Implementing secure backend services with FastAPI and Node.js"),
+        emoji("⚡ Managing network infrastructure and cloud deployments"),
       ],
       softwareSkills: [
         {
@@ -54,16 +54,16 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "logos:typescript-icon",
         },
         {
-          skillName: "FastAPI",
-          iconifyTag: "logos:fastapi-icon",
+          skillName: "Java",
+          iconifyTag: "logos:java",
         },
         {
           skillName: "AWS",
           iconifyTag: "logos:aws",
         },
         {
-          skillName: "GitHub",
-          iconifyTag: "akar-icons:github-fill",
+          skillName: "Python",
+          iconifyTag: "logos:python",
         },
         {
           skillName: "Docker",
@@ -75,9 +75,9 @@ export const skillsSection: SkillsSectionType = {
 };
 
 export const SkillBars: SkillBarsType[] = [
-  { Stack: "Frontend/Design", progressPercentage: "80" },
-  { Stack: "Backend", progressPercentage: "85" },
-  { Stack: "Programming", progressPercentage: "90" },
+  { Stack: "Frontend/Design", progressPercentage: "85" },
+  { Stack: "Backend (Java/Python)", progressPercentage: "85" },
+  { Stack: "Cloud/Network IT", progressPercentage: "80" },
 ];
 
 export const educationInfo: EducationType[] = [
@@ -86,29 +86,42 @@ export const educationInfo: EducationType[] = [
     subHeader: "Bachelor of Science in Computer Science, Minor in Cybersecurity",
     duration: "August 2021 - May 2026",
     grade: "GPA: 3.58/4.00 | Dean’s List",
-    desc: "",
+    desc: "Relevant Coursework: Cloud Computing, Network Security, Software Engineering, Database Management Systems.",
     descBullets: [],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "IT Intern",
-    company: "—",
-    companyLogo: "/img/icons/common/company.png",
-    date: "2024 - Present",
-    desc: "Handled support tickets, performed switch configuration and UPS maintenance, and contributed to improving IT infrastructure reliability.",
+    role: "Network IT Technician",
+    company: "Clemson CCIT",
+    companyLogo: "/img/icons/common/university.png", // Ensure you have a logo or use a placeholder
+    date: "Aug 2022 - Dec 2025",
+    desc: "Provided critical network support for the university campus. Configured Cisco switches, maintained UPS power systems, managed hardware inventory, and troubleshot connectivity issues for thousands of users in a high-demand environment.",
   },
   {
-    role: "Zonal Architecture Testbed Research Assistant",
+    role: "Research Assistant (Zonal Architecture)",
     company: "Clemson Creative Inquiry",
     companyLogo: "/img/icons/common/university.png",
-    date: "Aug 2025 - Present",
-    desc: "Conducted graduate research to configure and monitor automotive zonal network simulations. Implemented embedded software components for low-cost computers simulating ECUs. Supported topology analysis and security protocol testing for next-generation in-vehicle networks.",
+    date: "Aug 2025 - Dec 2025",
+    desc: "Conducted graduate-level research on automotive zonal network security. Configured simulations for vehicle ECUs, implemented embedded software components, and analyzed network topology to improve security protocols for next-gen vehicles.",
+  },
+  {
+    role: "IT Intern",
+    company: "First Quality",
+    companyLogo: "/img/icons/common/company.png",
+    date: "May 2024 - Aug 2024",
+    desc: "Supported enterprise IT operations by handling helpdesk tickets, deploying workstations, and assisting with network infrastructure upgrades. Collaborated with the system admin team to improve reliability and user support response times.",
   },
 ];
 
 export const projects: ProjectType[] = [
+  {
+    name: "Michelin Legacy Modernization",
+    desc: "Capstone project focusing on migrating legacy COBOL mainframe systems to modern Java architecture using AWS Transform and cloud-native practices.",
+    github: "https://github.com/Vincent66875", 
+    img: "/projects/security-analyzer.png" // Update this image if you have a better one
+  },
   {
     name: "Not Alone Online",
     desc: "An online adaptation of the Not Alone board game with multiplayer support using React, AWS DynamoDB, and API Gateway WebSockets.",
@@ -116,37 +129,33 @@ export const projects: ProjectType[] = [
     img: "/projects/not-alone.png"
   },
   {
-    name: "Collaborative Task Management Tool",
-    desc: "A React + TypeScript application with Firebase integration and drag-and-drop functionality for managing tasks across boards.",
-    github: "https://github.com/Vincent66875", // update with correct repo
-    img: "/projects/security-analyzer.png"
-  },
-  {
-    name: "Job Helper Tool",
-    desc: "Cloud-native job application tracker built with FastAPI and DynamoDB, designed to assist students in organizing applications.",
-    github: "https://github.com/Vincent66875",
+    name: "System Security Log Analyzer",
+    desc: "Developed a security tool to parse and analyze system logs, identifying potential threats and anomalies to improve proactive defense mechanisms.",
+    github: "https://github.com/Vincent66875", 
     img: "/projects/task-manager.png"
   },
 ];
+
 export const feedbacks: FeedbackType[] = [
   {
-    name: "Your Name",
-    role: "Mentor / Colleague",
-    feedback: "This is a placeholder feedback until I gather real testimonials.",
+    name: "Available on Request",
+    role: "",
+    feedback: "References available upon request.",
   },
 ];
+
 export const seoData: SEODataType = {
-  title: "Vincent Hung",
+  title: "Vincent Hung | Software Engineer",
   description: greetings.description,
   author: "Rung-Shiang (Vincent) Hung",
-  image: "https://avatars.githubusercontent.com/u/XXXXX?v=4", // replace with your GitHub avatar URL
+  image: "https://avatars.githubusercontent.com/u/88233379?v=4", // Updated with your actual GitHub ID from previous context if available, or keep placeholder
   url: "https://vincent66875-portfolio.vercel.app",
   keywords: [
     "Vincent Hung",
     "Rung-Shiang Hung",
-    "@Vincent66875",
+    "Clemson University",
     "Portfolio",
     "Software Engineer",
-    "Cloud Engineer",
+    "Full Stack Developer",
   ],
 };
