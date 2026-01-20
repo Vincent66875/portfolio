@@ -140,7 +140,7 @@ export const seoData: SEODataType = {
   description: greetings.description,
   author: "Rung-Shiang (Vincent) Hung",
   image: "https://avatars.githubusercontent.com/u/XXXXX?v=4", // replace with your GitHub avatar URL
-  url: "https://vincent-portfolio.vercel.app",
+  url: "https://vincent66875-portfolio.vercel.app",
   keywords: [
     "Vincent Hung",
     "Rung-Shiang Hung",
