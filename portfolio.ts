@@ -93,25 +93,32 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: "Network IT Technician",
-    company: "Clemson CCIT",
-    companyLogo: "/img/icons/common/university.png", // Ensure you have a logo or use a placeholder
-    date: "Aug 2022 - Dec 2025",
-    desc: "Provided critical network support for the university campus. Configured Cisco switches, maintained UPS power systems, managed hardware inventory, and troubleshot connectivity issues for thousands of users in a high-demand environment.",
+    role: "Capstone Software Engineer (Michelin Project)",
+    company: "Michelin North America", 
+    companyLogo: "/img/icons/common/company1.png",
+    date: "Aug 2025 - Dec 2025",
+    desc: "Partnered with Michelin to modernize legacy infrastructure. Migrated COBOL mainframe code to Java using AWS Transform, ensuring functional equivalence and enabling cloud-native scalability for enterprise systems.",
   },
   {
-    role: "Research Assistant (Zonal Architecture)",
+    role: "Zonal Architecture Testbed Research Assistant",
     company: "Clemson Creative Inquiry",
     companyLogo: "/img/icons/common/university.png",
-    date: "Aug 2025 - Dec 2025",
-    desc: "Conducted graduate-level research on automotive zonal network security. Configured simulations for vehicle ECUs, implemented embedded software components, and analyzed network topology to improve security protocols for next-gen vehicles.",
+    date: "Aug 2025 - Present",
+    desc: "Conducted graduate research to configure and monitor automotive zonal network simulations. Implemented embedded software components for low-cost computers simulating ECUs. Supported topology analysis and security protocol testing for next-generation in-vehicle networks.",
   },
   {
     role: "IT Intern",
     company: "First Quality",
     companyLogo: "/img/icons/common/company.png",
     date: "May 2024 - Aug 2024",
-    desc: "Supported enterprise IT operations by handling helpdesk tickets, deploying workstations, and assisting with network infrastructure upgrades. Collaborated with the system admin team to improve reliability and user support response times.",
+    desc: "Handled support tickets, performed switch configuration and UPS maintenance, and contributed to improving IT infrastructure reliability.",
+  },
+  {
+    role: "Network IT Technician",
+    company: "Clemson CCIT",
+    companyLogo: "/img/icons/common/university.png",
+    date: "Aug 2022 - Dec 2025",
+    desc: "Provided campus-wide network support, configuring Cisco switches and maintaining UPS power systems. Managed hardware inventory and resolved connectivity issues for a large-scale university network environment.",
   },
 ];
 
@@ -133,14 +140,6 @@ export const projects: ProjectType[] = [
     desc: "Developed a security tool to parse and analyze system logs, identifying potential threats and anomalies to improve proactive defense mechanisms.",
     github: "https://github.com/Vincent66875", 
     img: "/projects/task-manager.png"
-  },
-];
-
-export const feedbacks: FeedbackType[] = [
-  {
-    name: "Available on Request",
-    role: "",
-    feedback: "References available upon request.",
   },
 ];
 
