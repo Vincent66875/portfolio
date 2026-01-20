@@ -85,7 +85,7 @@ export const educationInfo: EducationType[] = [
     schoolName: "Clemson University",
     subHeader: "Bachelor of Science in Computer Science, Minor in Cybersecurity",
     duration: "August 2021 - May 2026",
-    grade: "GPA: 3.58/4.00 | Dean’s List",
+    grade: "GPA: 3.6/4.00 | Dean’s List",
     desc: "Relevant Coursework: Cloud Computing, Network Security, Software Engineering, Database Management Systems.",
     descBullets: [],
   },
