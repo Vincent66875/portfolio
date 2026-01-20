@@ -126,19 +126,21 @@ export const projects: ProjectType[] = [
   {
     name: "Michelin Legacy Modernization",
     desc: "Capstone project focusing on migrating legacy COBOL mainframe systems to modern Java architecture using AWS Transform and cloud-native practices.",
-    github: "https://github.com/Vincent66875", 
-    img: "/projects/security-analyzer.png" // Update this image if you have a better one
+    img: "/projects/converter.png"
   },
   {
     name: "Not Alone Online",
     desc: "An online adaptation of the Not Alone board game with multiplayer support using React, AWS DynamoDB, and API Gateway WebSockets.",
-    github: "https://github.com/Vincent66875/not-alone",
     img: "/projects/not-alone.png"
   },
   {
-    name: "System Security Log Analyzer",
-    desc: "Developed a security tool to parse and analyze system logs, identifying potential threats and anomalies to improve proactive defense mechanisms.",
-    github: "https://github.com/Vincent66875", 
+    name: "Collaborative Task Management Tool",
+    desc: "A React + TypeScript application with Firebase integration and drag-and-drop functionality for managing tasks across boards.",
+    img: "/projects/security-analyzer.png"
+  },
+  {
+    name: "Job Helper Tool",
+    desc: "Cloud-native job application tracker built with FastAPI and DynamoDB, designed to assist students in organizing applications.",
     img: "/projects/task-manager.png"
   },
 ];
